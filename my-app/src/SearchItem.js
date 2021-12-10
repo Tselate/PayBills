@@ -1,9 +1,10 @@
-import React from "react"
+import React, {useState} from "react"
 
 function SearchItem() {
+    const [item, setItem] = useState("")
     return (
         <div>
-            Hello World!
+           
         </div>
     )
 }
