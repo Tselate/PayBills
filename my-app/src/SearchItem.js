@@ -2,7 +2,7 @@ import React, {useState} from "react"
 
 function SearchItem() {
     const [item, setItem] = useState("")
-    setItem("Hello Worl")
+    setItem("Hello World")
     return (
         <div>
            {item}
